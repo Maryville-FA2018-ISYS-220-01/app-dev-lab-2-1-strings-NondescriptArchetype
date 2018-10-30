@@ -3,8 +3,8 @@
  
  Create a `name` constant and assign it a string literal representing your name.
  */
-
-
+let name = "Harrison Greer"
+print (name)
 /*:
  Create a `favoriteQuote` constant and assign it the following string literal:
  
@@ -12,12 +12,14 @@
  
  Write in your own favorite quote where indicated, and be sure to include escaped quotation marks. Print the value of `favoriteQuote`
  */
-
+print ("My favorite quote is, \"The difference between a master and a beginner is that the master has failed more times than the beginner has even tried.\"")
 
 /*:
  Write an if-else statement that prints "There's nothing here" if `emptyString` is empty, and "It's not as empty as I thought" otherwise.
  */
 let emptyString = ""
-
-
+if emptyString.isEmpty {
+    print("There's nothing here")
+}
+else { print("It's not as empty as I thought") }
 //: page 1 of 5  |  [Next: Exercise - Concatenation and Interpolation](@next)
